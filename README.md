@@ -39,6 +39,8 @@ Once installed got to the root directory of the repo in the terminal and run
 node index.js
 ```
 
+You will then be prompted with multiple questions in order to fill out the README.md for you.
+
 ### Example:
 
 ![Initial prompt](./public/images/step-1.gif)
