@@ -80,12 +80,14 @@ const questions = [
   },
 ];
 
+// Function to simplify the proccess
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, generateMarkdown(data), (err) => {
     if (err) console.log(`\x1B[7;31;49m ×ERROR\x1B[0m: ${err.message}`);
   });
 }
 
+// Call the inquirer package and immediatly call the prompt function on the inquirer package to prompt the user with questions
 function init() {
   inquirer.prompt(questions).then((answers) => {
     writeToFile('README.md', answers);

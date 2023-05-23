@@ -1,4 +1,4 @@
-\*\*\*\*# readme-generator-cli
+# readme-generator-cli
 
 ![GitHub](https://img.shields.io/github/license/NateAyye/readme-generator-cli)
 
@@ -8,15 +8,16 @@ A Terminal tool for developers to be able to generate a README.md file for any p
 
 ## Table of Contents
 
-- [Description](#description)
-- [Table of Contents](#table-of-contents)
-- [Installation](#installation)
-- [Usage](#usage)
-  - [Example:](#example)
-- [Contribution](#contribution)
-- [Tests](#tests)
-- [License](#license)
-- [Questions](#questions)
+- [readme-generator-cli](#readme-generator-cli)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+    - [Example:](#example)
+  - [Contribution](#contribution)
+  - [Tests](#tests)
+  - [License](#license)
+  - [Questions](#questions)
 
 ## Installation
 
