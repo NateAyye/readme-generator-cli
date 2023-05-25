@@ -43,6 +43,8 @@ You will then be prompted with multiple questions in order to fill out the READM
 
 ### Example:
 
+[&#x21e8; Open Example Video In Browser &#x21e6;](https://drive.google.com/file/d/1uHbQMAFO1AV-0Q8PViWK2oY5R7q4WSqe/view?usp=sharing)
+
 ![Initial prompt](./public/images/step-1.gif)
 
 All The prompts
