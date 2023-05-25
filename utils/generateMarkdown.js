@@ -28,9 +28,10 @@ Refer to the ${renderLicenseLink(
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   const license = data.license === 'none' ? false : data.license;
-  return `# ${data.title}
+  const { userName, title } = data;
+  return `# ${title}
 
-${renderLicenseBadge(license, data.userName, data.title)}
+${renderLicenseBadge(license, userName, title)}
 
 ## Description
 
@@ -61,13 +62,11 @@ ${data.contribution}
 
 ${data.tests}
 
-${renderLicenseSection(license)}
+${renderLicenseSection(license, title, userName)}
 
 ## Questions 
 
-Want to know me a little bit bette more? [${
-    data.userName
-  }'s Profile](https://github.com/${data.userName}) 
+Want to know me a little bit bette more? [${userName}'s Profile](https://github.com/${userName}) 
 
 Want to get in contact with me?
   - Send an email to ${data.email}  
