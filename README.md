@@ -61,7 +61,7 @@ Currently there are no tests.
 
 ## License
 
-Refer to the [MIT License](https://github.com/undefined/undefined/blob/main/LICENSE) file within the root of the repository;
+Refer to the [MIT License](https://github.com/NateAyye/readme-generator-cli/blob/main/LICENSE) file within the root of the repository;
 
 ## Questions
 
